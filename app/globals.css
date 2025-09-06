@@ -1,0 +1,20 @@
+/*
+ * Global styles for The PDR site.
+ *
+ * These styles import the Tailwind base, components and utilities layers.  They
+ * also set a default background and text colour using the custom palette defined
+ * in `tailwind.config.js`.  You can override these styles as needed in
+ * individual components.
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Set the default body styles to reflect the brand colours. */
+body {
+  @apply bg-beige text-brand antialiased;
+}
+
+a {
+  @apply text-brand underline;
+}

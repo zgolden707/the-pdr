@@ -11,7 +11,7 @@
 export default function BrandLogo({ size = 80 }) {
   return (
     <img
-      src="/PDR.svg"
+      src"//apple-touch-icon.pngsvg"
       alt="The PDR logo"
       style={{ width: `${size}px`, height: 'auto' }}
       onError={(e) => {
